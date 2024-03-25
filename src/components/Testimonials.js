@@ -1,6 +1,6 @@
 export default function Testimonials() {
     return (
-        <div>
+        <div className="testimonials" id="testimonials">
             <p>
                 Testing Testimonials
             </p>

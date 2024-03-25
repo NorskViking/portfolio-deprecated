@@ -1,6 +1,6 @@
 export default function Projects() {
     return (
-        <div>
+        <div className="projects" id="projects">
             <p>
                 Testing Project
             </p>

@@ -1,6 +1,6 @@
 export default function Experience() {
     return (
-        <div>
+        <div className="experience" id="experience">
             <p>
                 Testing Experience
             </p>

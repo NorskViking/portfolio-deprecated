@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <div>
+        <div className="skills" id="skills">
             <p>
                 Testing Skills
             </p>
