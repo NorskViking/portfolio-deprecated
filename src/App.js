@@ -1,21 +1,24 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Testimonials from './components/Testimonials';
-import Footer from './components/Footer';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
+import Experience from './components/Expereience/Experience';
+import Testimonials from './components/Testimonials/Testimonials';
+import Footer from './components/Footer/Footer';
+import BackToTop from './components/BackToTop/BackToTop';
+
 import { Routes, Route } from 'react-router-dom';
 import list from './assets/svg/list.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container'
 
 console.log(list)
 
 export default function App() {
   return (
-    <div className="justify-content-end">
+    <Container className="justify-content-end">
       <Navbar />
         <Nav className="justify-content-end">
         <Routes>
@@ -25,9 +28,10 @@ export default function App() {
             <Route path="/Experience" element={<Experience />} />
             <Route path="/Testimonials" element={<Testimonials />} />
           </Routes>
+          <BackToTop />
         </Nav>
         <Footer />
-    </div>
+    </Container>
     /*
     <>
       <Navbar />

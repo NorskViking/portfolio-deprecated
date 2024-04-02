@@ -1,7 +1,8 @@
 .about {
     height: 100vh;
     width: 100%;
-    display: flex;
+    margin: auto;
+    display: flexbox;
     align-items: center;
     justify-content: center;
 }
@@ -12,28 +13,28 @@
     justify-content: center;
     height: 100%;
     position: relative;
-    background-color: #2D68A8;
+    background-color: #212121;
 }
 
 .about--img {
-    --img-size: 400px;
+    --img-size: 50vmin;
     position: absolute;
     left: 35%;
     transform: translateX(-85%);
     width: var(--img-size);
-    height: var(--ing-size);
+    height: var(--img-size);
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px #FF9933;
+    box-shadow: 2px 2px 10px #999999;
 }
 
 .about--container-left {
     flex: 35%;
     height: 100%;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    background-color: #2D68A8;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095FF;
 }
 
 .about--container-right {
@@ -41,9 +42,9 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    background-color: #E5F2FF;
+    background-color: #212121;
 }
 
 .about--content {
@@ -54,12 +55,41 @@
     justify-content: flex-start;
 }
 
-.about--social {
-    font-size: 35px;
+.about--content-social {
+    font-size: 50px;
     margin: 0 1rem;
     transition: transform 0.5s;
+    justify-content: flex-end;
+    justify-self: flex-end;
 }
 
-.about--social:hover {
+.about--content-social > img:hover {
     transform: scale(1.2);
+}
+
+.acr--content {
+    justify-self: flex-end;
+    justify-content: flex-end;
+}
+
+.acr--content h6 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: -0.85rem;
+    opacity: 0.8;
+}
+
+.acr--content h1 {
+    font-weight: 600;
+    font-size: 3.25rem;
+    line-height: 110%;
+    margin: 1rem 0;
+}
+
+.acr--content p {
+    margin-top: 1.45rem;
+    font-weight: 500;
+    font-size: 1.15rem;
+    opacity: 0.7;
+
 }
