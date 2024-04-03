@@ -1,7 +1,6 @@
-import React, { useState, useContext } from 'react'
+import React, { useState } from 'react'
 
-
-export default function BackToTop() {
+function BackToTop() {
     const [visible, setVisible] = useState(false);
 
     const toggleVisible = () => {
@@ -33,3 +32,5 @@ export default function BackToTop() {
         </div>
     )
 }
+
+export default BackToTop;

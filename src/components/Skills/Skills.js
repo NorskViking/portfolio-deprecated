@@ -1,4 +1,4 @@
-export default function Skills() {
+function Skills() {
     return (
         <div className="skills" id="skills">
             <p>
@@ -328,3 +328,5 @@ export default function Skills() {
         </div>
     )
 }
+
+export default Skills;

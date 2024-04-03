@@ -1,18 +1,35 @@
 import { Link } from 'react-router-dom';
+import List from '../../assets/svg/list.svg'
 
-const Navbar = () => {
+import './Navbar.css'
+
+import { useState } from 'react';
+import { Button, Container, Nav, NavDropdown, Offcanvas } from 'react-bootstrap';
+
+function OffCanvasNavbar() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return (
-        <div>
-            <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/skills">Skills</Link>
-            <Link to="/experience">Experience</Link>
-            <Link to="/testimonials">Testimonials</Link>
-            <Link to="/footer">Footer</Link>
-        </div>  
+        <div className='navbar'>
+            <Button variant="primary" onClick={handleShow}>
+                <img src={List} alt="" />
+            </Button>
+
+            <Offcanvas show={show} onHide={handleClose}>
+                <Offcanvas.Header closeButton>
+                    Menu
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                    
+                </Offcanvas.Body>
+            </Offcanvas>
+        </div>
     )
 }
-export default Navbar;
+export default OffCanvasNavbar;
 
 /*
     <Link to="/About">About</Link>
@@ -21,4 +38,15 @@ export default Navbar;
     <Link to="/Experience">Experience</Link>
     <Link to="/Testimonials">Testimonials</Link>
     <Link to="/Footer">Footer</Link>
+
+    <NavDropdown title="Menu" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#about">About</NavDropdown.Item>
+                    <NavDropdown.Item href="#education">Education</NavDropdown.Item>
+                    <NavDropdown.Item href="#skills">Skills</NavDropdown.Item>
+                    <NavDropdown.Item href="#experience">Experience</NavDropdown.Item>
+                    <NavDropdown.Item href="#projects">Projects</NavDropdown.Item>
+                    <NavDropdown.Item href="#achievements">Achievements</NavDropdown.Item>
+                    <NavDropdown.Item href="#testimonials">Testimonials</NavDropdown.Item>
+                </NavDropdown>
+
 */

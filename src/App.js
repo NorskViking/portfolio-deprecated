@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
-import Skills from './components/Skills/Skills';
-import Experience from './components/Expereience/Experience';
-import Testimonials from './components/Testimonials/Testimonials';
+
+import MainPage from './pages/Main/MainPage'
+import ProjectPage from './pages/Project/ProjectPage'
+import ScrollToTop from './utils/ScrollToTop'
+import BackToTop from './components/BackToTop/BackToTop'
+
 import Footer from './components/Footer/Footer';
-import BackToTop from './components/BackToTop/BackToTop';
 
 import { Routes, Route } from 'react-router-dom';
 import list from './assets/svg/list.svg'
@@ -18,6 +17,19 @@ console.log(list)
 
 export default function App() {
   return (
+    <Container className="justify-content-end">
+        <Nav className="justify-content-end">
+        <Routes>
+          <Route path="/" element={<MainPage />} />    
+        </Routes>
+          <BackToTop />
+        </Nav>
+        <Footer />
+    </Container>
+  );
+}
+
+/*
     <Container className="justify-content-end">
       <Navbar />
         <Nav className="justify-content-end">
@@ -32,18 +44,15 @@ export default function App() {
         </Nav>
         <Footer />
     </Container>
-    /*
-    <>
-      <Navbar />
+
+
+    <Container className="app">
+      <ScrollToTop />
       <Routes>
-        <Route path="about" element={<About />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="skills" element={<Skills />} />
-        <Route path="experience" element={<Experience />} />
-        <Route path="testimonials" element={<Testimonials />} />
-        <Route path="footer" element={<Footer />} />
+        <Route path="/" exact component={MainPage} />
+        <Route path="/projects" exact component={ProjectPage} />
+
       </Routes>
-    </>
-    */
-  );
-}
+      <BackToTop />
+    </Container>
+*/

@@ -1,4 +1,4 @@
-export default function Testimonials() {
+function Testimonials() {
     return (
         <div className="testimonials" id="testimonials">
             <p>
@@ -7,3 +7,5 @@ export default function Testimonials() {
         </div>
     )
 }
+
+export default Testimonials;

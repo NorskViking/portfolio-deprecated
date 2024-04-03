@@ -1,4 +1,4 @@
-export default function Experience() {
+function Experience() {
     return (
         <div className="experience" id="experience">
             <p>
@@ -7,3 +7,5 @@ export default function Experience() {
         </div>
     )
 }
+
+export default Experience;
