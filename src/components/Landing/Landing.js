@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import { aboutData } from "../../data/aboutData";
+import { landingData } from "../../data/landingData";
 import { socialsData } from "../../data/socialsData";
 
 export default function Landing() {
@@ -40,9 +40,9 @@ export default function Landing() {
                 </Col>
                 <Col className="landing--container-right">
                     <Row className="lcr--content">
-                        <h6>{aboutData.title}</h6>
-                        <h1>{aboutData.name}</h1>
-                        <p>{aboutData.description}</p>
+                        <h6>{landingData.title}</h6>
+                        <h1>{landingData.name}</h1>
+                        <p>{landingData.description}</p>
                     </Row>
                 </Col>
             </Row>

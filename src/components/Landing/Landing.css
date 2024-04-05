@@ -124,7 +124,9 @@
     }
 
     .landing--social {
-        font-size: 30px;
+        --img-size: 30px;
+        width: var(--img-size);
+        height: var(--img-size);
     }
 
     .lcr--content {
