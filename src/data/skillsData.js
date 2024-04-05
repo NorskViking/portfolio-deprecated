@@ -1,112 +1,113 @@
-import BootstrapOriginalWordmark from "react-devicons/bootstrap/original-wordmark"
-import CsharpOriginal from "react-devicons/csharp/original"
-import Css3OriginalWordmark from "react-devicons/css3/original-wordmark"
-import DjangoPlain from "react-devicons/django/plain"
-import DotNetOriginalWordmark from "react-devicons/dot-net/original-wordmark"
-import ExpressOriginal from "react-devicons/express/original"
-import FigmaOriginal from "react-devicons/figma/original"
-import GithubOriginalWordmark from "react-devicons/github/original-wordmark"
-import GodotOriginalWordmark from "react-devicons/godot/original-wordmark"
-import Html5OriginalWordmark from "react-devicons/html5/original-wordmark"
-import JavaOriginalWordmark from "react-devicons/java/original-wordmark"
-import JavascriptOriginal from "react-devicons/javascript/original"
-import NodejsOriginalWordmark from "react-devicons/nodejs/original-wordmark"
-import PostgresqlOriginalWordmark from "react-devicons/postgresql/original-wordmark"
-import ReactOriginalWordmark from "react-devicons/react/original-wordmark"
-import SqliteOriginalWordmark from "react-devicons/sqlite/original-wordmark"
-import TypescriptOriginal from "react-devicons/typescript/original"
-import MysqlOriginalWordmark from "react-devicons/mysql/original-wordmark"
-import VscodeOriginalWordmark from "react-devicons/vscode/original-wordmark"
-import WordpressOriginal from "react-devicons/wordpress/original"
+import BootstrapOriginalWordmark from "devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+import CsharpOriginal from "devicon/icons/csharp/csharp-original.svg"
+import Css3OriginalWordmark from "devicon/icons/css3/css3-original-wordmark.svg"
+import PythonOriginalWordmark from "devicon/icons/python/python-original-wordmark.svg"
+import DjangoPlain from "devicon/icons/django/django-plain-wordmark.svg"
+import DotNetOriginalWordmark from "devicon/icons/dot-net/dot-net-original-wordmark.svg"
+import ExpressOriginal from "devicon/icons/express/express-original-wordmark.svg"
+import FigmaOriginal from "devicon/icons/figma/figma-original.svg"
+import GithubOriginalWordmark from "devicon/icons/github/github-original-wordmark.svg"
+import GodotOriginalWordmark from "devicon/icons/godot/godot-original-wordmark.svg"
+import Html5OriginalWordmark from "devicon/icons/html5/html5-original-wordmark.svg"
+import JavaOriginalWordmark from "devicon/icons/java/java-original-wordmark.svg"
+import JavascriptOriginal from "devicon/icons/javascript/javascript-original.svg"
+import NodejsOriginalWordmark from "devicon/icons/nodejs/nodejs-original-wordmark.svg"
+import PostgresqlOriginalWordmark from "devicon/icons/postgresql/postgresql-original-wordmark.svg"
+import ReactOriginalWordmark from "devicon/icons/react/react-original-wordmark.svg"
+import SqliteOriginalWordmark from "devicon/icons/sqlite/sqlite-original-wordmark.svg"
+import TypescriptOriginal from "devicon/icons/typescript/typescript-original.svg"
+import MysqlOriginalWordmark from "devicon/icons/mysql/mysql-original-wordmark.svg"
+import VscodeOriginalWordmark from "devicon/icons/vscode/vscode-original-wordmark.svg"
+import WordpressOriginal from 'devicon/icons/wordpress/wordpress-original.svg'
 /*
-import RaspberrypiOriginal from "react-devicons/raspberrypi/original"
-import SpringOriginalWordmark from "react-devicons/spring/original-wordmark"
-import WoocommerceOriginalWordmark from "react-devicons/woocommerce/original-wordmark"
+import RaspberrypiOriginal from "devicon/icons/raspberrypi/raspberrypi-original-wordmark.svg"
+import SpringOriginalWordmark from "devicon/icons/Spring/spring-original-wordmark.svg"
+import WoocommerceOriginalWordmark from "devicon/icons/woocommerce/woocommerce-original-wordmark.svg"
 */
 export const skillsData = [
     {
         id: 'HTML5',
-        logo: <Html5OriginalWordmark />
+        logo: Html5OriginalWordmark
     },
     {
         id: 'CSS',
-        logo: <Css3OriginalWordmark />
+        logo: Css3OriginalWordmark
     },
     {
         id: 'Java',
-        logo: <JavaOriginalWordmark />
+        logo: JavaOriginalWordmark
     },
     {
         id: 'JavaScript',
-        logo: <JavascriptOriginal />
+        logo: JavascriptOriginal
     },
     {
         id: 'Typescript',
-        logo: <TypescriptOriginal />
+        logo: TypescriptOriginal
     },
     {
         id: 'Node JS',
-        logo: <NodejsOriginalWordmark />
+        logo: NodejsOriginalWordmark
     },
     {
         id: 'React',
-        logo: <ReactOriginalWordmark />
+        logo: ReactOriginalWordmark
     },
     {
         id: 'Express',
-        logo: <ExpressOriginal />
+        logo: ExpressOriginal
     },
     {
         id: 'Python',
-        logo: <PythonOriginalWordmark />
+        logo: PythonOriginalWordmark
     },
     {
         id: 'Django',
-        logo: <DjangoPlain />
+        logo: DjangoPlain
     },
     {
         id: 'Bootstrap',
-        logo: <BootstrapOriginalWordmark />
+        logo: BootstrapOriginalWordmark
     },
     {
         id: 'Godot',
-        logo: <GodotOriginalWordmark />
+        logo: GodotOriginalWordmark
     },
     {
         id: 'PostgreSQL',
-        logo: <PostgresqlOriginalWordmark />
+        logo: PostgresqlOriginalWordmark
     },
     {
         id: 'SQLite',
-        logo: <SqliteOriginalWordmark />
+        logo: SqliteOriginalWordmark
     },
     {
         id: 'MySQL',
-        logo: <MysqlOriginalWordmark />
+        logo: MysqlOriginalWordmark
     },
     {
         id: 'Github',
-        logo: <GithubOriginalWordmark />
+        logo: GithubOriginalWordmark
     },
     {
         id: 'Visual Studio Code',
-        logo: <VscodeOriginalWordmark />
-    }
+        logo: VscodeOriginalWordmark
+    },
     {
         id: 'Csharp',
-        logo: <CsharpOriginal />
+        logo: CsharpOriginal
     },
     {
         id: 'DotNet',
-        logo: <DotNetOriginalWordmark />
+        logo: DotNetOriginalWordmark
     },
     {
         id: 'Figma',
-        logo: <FigmaOriginal />
+        logo: FigmaOriginal
     },
     {
         id: 'WordPress',
-        logo: <WordpressOriginal />
+        logo: WordpressOriginal
     }
 ]
 
