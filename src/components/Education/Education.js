@@ -6,9 +6,9 @@ import Container from 'react-bootstrap/Container'
 
 export default function Education() {
     return (
-        <Container className='education' id='education'>
-            <Container className='education-body'>
-                <Container className='education-description'>
+        <Container fluid className='education' id='education'>
+            <Container fluid className='education-body'>
+                <Container fluid className='education-description'>
                     <h1>Education</h1>
                     {educationData.map(education => (
                         <EducationCard

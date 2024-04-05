@@ -3,6 +3,7 @@
     display: flex;
     width: 100%;
     margin: 0;
+    padding: 0;
     align-items: center;
     justify-content: center;
 }
@@ -19,7 +20,7 @@
     --img-size: 400px;
     position: absolute;
     left: 35%;
-    top: 15%;
+    top: 30%;
     transform: translateX(-50%);
     width: var(--img-size);
     height: var(--img-size);

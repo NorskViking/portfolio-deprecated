@@ -15,7 +15,7 @@ import Footer from '../../components/Footer/Footer';
 
 export default function Main() {
     return (
-        <Container>
+        <Container fluid style={{ padding: 0, margin: 0 }}>
             <Landing />
             <About />
             <Education />

@@ -17,7 +17,7 @@ console.log(list)
 
 export default function App() {
   return (
-    <Container className="justify-content-end">
+    <Container fluid className='app'>
         <Nav className="justify-content-end">
         <Routes>
           <Route path="/" element={<MainPage />} />    

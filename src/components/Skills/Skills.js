@@ -8,12 +8,12 @@ import Marquee from 'react-fast-marquee'
 
 export default function Skills() {
     return (
-        <Container className='skills' id='skills'>
-            <Container className='skillsHeader'>
+        <Container fluid className='skills' id='skills'>
+            <Container fluid className='skillsHeader'>
                 <h2>Skills</h2>
             </Container>
-            <Container className='skillsContainer'>
-                <Container className='skill--scroll'>
+            <Container fluid className='skillsContainer'>
+                <Container fluid className='skill--scroll'>
                     <Marquee
                         gradient={false}
                         speed={80}

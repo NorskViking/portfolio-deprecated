@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 
 export default function EducationCard({ id, institution, course, startYear, endYear, logo }) {
     return (
-        <Container key={id} >
+        <Container fluid key={id} >
             <Card className='education-card'>
                 <Card.Img variant="top" src={logo} />
                 <Card.Body>
