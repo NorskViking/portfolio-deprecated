@@ -15,9 +15,7 @@ export default function EducationCard({ id, institution, course, startYear, endY
                     <Card.Subtitle className="mb-2 text-muted">
                         {startYear}-{endYear}
                     </Card.Subtitle>
-                    <Card.Text>
                         {course}
-                    </Card.Text>
                 </Card.Body>
             </Card>
         </Container>

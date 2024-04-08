@@ -69,12 +69,15 @@
 .about-img {
     margin-top: 40px;
     pointer-events: none;
+    justify-self: flex-end;
+    flex: 0.3;
 }
 
-.about-img>img {
-    width: 380px;
-    flex: 0.5;
+.about-img > img {
+    width: fit-content;
+    height: 70vh;
 }
+
 
 @media (min-width: 992px) and (max-width: 1380px) {
 

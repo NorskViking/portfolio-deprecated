@@ -1,7 +1,8 @@
-import './About.css'
+import './About.css';
 import { aboutData } from '../../data/aboutData';
+import aboutImg from '../../assets/jpg/about_img.jpg';
 
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
 
 function About() {
     return (
@@ -16,6 +17,9 @@ function About() {
                     <h2>{aboutData.title}</h2>
                     <p>{aboutData.description1}</p>
                     <p>{aboutData.description2}</p>
+                </Container>
+                <Container fluid className='about-img'>
+                    <img alt="" src={aboutImg}/>
                 </Container>
             </Container>
         </Container>

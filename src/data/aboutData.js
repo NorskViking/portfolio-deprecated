@@ -1,5 +1,5 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name is Jørgen. A fullstack developer based in Oslo, Norway.",
-    description2: "During the day I work as a Project Manager at FunkWeb. In the evenings I'm working on my own projects, gaming or out socializing with friends. I graduated from the University of Oslo, with a Bachelor in Informatics."
+    title: "Hvem er jeg",
+    description1: "Jeg er Jørgen. En ung fullstack utvikler bosatt i Oslo.",
+    description2: "På dagtid jobber jeg hos Funkweb kompetanse. På fritiden jobber jeg med egne prosjekter, gamer, leser eller sosialiserer med venner. Jeg er glad i å reise verden rundt, og bedriver hjemmebrygging som hobby."
 }

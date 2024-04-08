@@ -14,9 +14,9 @@ import { socialsData } from "../../data/socialsData";
 export default function Landing() {
     return (
         <Container fluid className="landing">
-            <Row className="landing--container">
-                <Col className="landing--container-left">
-                    <div className="lcl--content">
+            <Container fluid className="landing--container">
+                <Col fluid className="landing--container-left">
+                    <Container fluid className="lcl--content">
                         {socialsData.linkedin && (
                             <a
                                 href={socialsData.linkedin}
@@ -35,17 +35,17 @@ export default function Landing() {
                                 <img src={github} alt="" className="landing--social" />
                             </a>
                         )}
-                    </div>
+                    </Container>
                     <img src={profile} alt="" className="landing--img" />
                 </Col>
-                <Col className="landing--container-right">
-                    <Row className="lcr--content">
+                <Col fluid className="landing--container-right">
+                    <Row fluid className="lcr--content">
                         <h6>{landingData.title}</h6>
                         <h1>{landingData.name}</h1>
                         <p>{landingData.description}</p>
                     </Row>
                 </Col>
-            </Row>
+            </Container>
         </Container>
     );
 }

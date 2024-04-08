@@ -10,7 +10,7 @@ export default function Skills() {
     return (
         <Container fluid className='skills' id='skills'>
             <Container fluid className='skillsHeader'>
-                <h2>Skills</h2>
+                <h2>Ferdigheter</h2>
             </Container>
             <Container fluid className='skillsContainer'>
                 <Container fluid className='skill--scroll'>

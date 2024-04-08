@@ -1,5 +1,5 @@
 export const landingData = {
-    title: "Fullstack Developer",
+    title: "Fullstack Utvikler",
     name: "Jørgen Stockfleth Baumann",
-    description: "I'm a fullstack developer living in Oslo."
+    description: "Jeg er en Fullstack utvikler bosatt i Oslo."
 }

@@ -5,8 +5,8 @@ import sandevgs from '../assets/png/sandevgs.png'
 export const educationData = [
     {
         id: 1,
-        institution: 'University of Oslo, Oslo, Norway',
-        course: 'Bachelor of Informatics',
+        institution: 'Universitetet i Oslo, Oslo, Norge',
+        course: 'Bachelor i Informatikk',
         startYear: '2011',
         endYear: '2022',
         logo: uio
@@ -14,15 +14,15 @@ export const educationData = [
     {
         id: 2,
         institution: 'Northview HighSchool, Grand Rapids, Michigan, USA',
-        course: 'High School Exchange Student',
+        course: 'Utvekslingsstudent, andreåret videregående skole',
         startYear: '2009',
         endYear: '2010',
         logo: northview
     },
     {
         id: 3,
-        institution: 'Sande Videregående Skole, Sande i Vestfold, Norway',
-        course: 'High School',
+        institution: 'Sande Videregående Skole, Sande i Vestfold, Norge',
+        course: 'Videregående Skole',
         startYear: '2008',
         endYear: '2011',
         logo: sandevgs
