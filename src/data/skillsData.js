@@ -47,67 +47,83 @@ export const skillsData = [
     },
     {
         id: 'Node JS',
-        logo: NodejsOriginalWordmark
+        logo: NodejsOriginalWordmark,
+        level: 3.5
     },
     {
         id: 'React',
-        logo: ReactOriginalWordmark
+        logo: ReactOriginalWordmark,
+        level: 4
     },
     {
         id: 'Express',
-        logo: ExpressOriginal
+        logo: ExpressOriginal,
+        level: 2.5
     },
     {
         id: 'Python',
-        logo: PythonOriginalWordmark
+        logo: PythonOriginalWordmark,
+        level: 2.5
     },
     {
         id: 'Django',
-        logo: DjangoPlain
+        logo: DjangoPlain,
+        level: 2.5
     },
     {
         id: 'Bootstrap',
-        logo: BootstrapOriginalWordmark
+        logo: BootstrapOriginalWordmark,
+        level: 2.5
     },
     {
         id: 'Godot',
-        logo: GodotOriginalWordmark
+        logo: GodotOriginalWordmark,
+        level: 3
     },
     {
         id: 'PostgreSQL',
-        logo: PostgresqlOriginalWordmark
+        logo: PostgresqlOriginalWordmark,
+        level: 3
     },
     {
         id: 'SQLite',
-        logo: SqliteOriginalWordmark
+        logo: SqliteOriginalWordmark,
+        level: 2.5
     },
     {
         id: 'MySQL',
-        logo: MysqlOriginalWordmark
+        logo: MysqlOriginalWordmark,
+        level: 2.5
     },
     {
         id: 'Github',
-        logo: GithubOriginalWordmark
+        logo: GithubOriginalWordmark,
+        level: 4
     },
     {
         id: 'Visual Studio Code',
-        logo: VscodeOriginalWordmark
+        logo: VscodeOriginalWordmark,
+        level: 3.5
     },
     {
         id: 'Csharp',
-        logo: CsharpOriginal
+        logo: CsharpOriginal,
+        level: 2
     },
     {
         id: 'DotNet',
-        logo: DotNetOriginalWordmark
+        logo: DotNetOriginalWordmark,
+        level: 2
     },
     {
         id: 'Figma',
-        logo: FigmaOriginal
+        logo: FigmaOriginal,
+        level: 2
     },
     {
         id: 'WordPress',
-        logo: WordpressOriginal
+        logo: WordpressOriginal,
+        level: 2.5
     }
 ]
 

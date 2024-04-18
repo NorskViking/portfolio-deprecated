@@ -26,7 +26,7 @@ export default function Education() {
                     ))}
                 </Container>
                 <Container fluid className='education-img'>
-                    <img src={educationImg} />
+                    <img src={educationImg} alt="" />
                 </Container>
             </Container>
         </Container>

@@ -1,12 +1,26 @@
 .experience {
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
-.experience-body {
+.experience--header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience--header h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.experience--body {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,13 +28,13 @@
     width: 100%;
 }
 
-.experience-description {
-    width: 100%;
+.experience--description {
+    width: 60%;
     flex: 0.65;
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     margin-right: 2rem;
 }
@@ -53,4 +67,18 @@
     border-radius: 20px;
     object-fit: contain;
     background-color: #0095FF !important;
+}
+
+.experience-img {
+    margin-top: 40px;
+    width: 40%;
+    pointer-events: none;
+    justify-self: flex-start;
+    flex: 0.3;
+}
+
+.experience-img > img {
+    width: fit-content;
+    max-height: 70vh;
+    max-width: 40rem;
 }

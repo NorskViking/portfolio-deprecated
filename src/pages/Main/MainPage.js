@@ -1,8 +1,10 @@
 import React from 'react';
 
 import Container from 'react-bootstrap/Container';
+/** 
+ * import Navbar from '../../components/Navbar/Navbar'
+*/
 
-import Navbar from '../../components/Navbar/Navbar'
 import Landing from '../../components/Landing/Landing';
 import About from '../../components/About/About';
 import Education from '../../components/Education/Education';

@@ -9,12 +9,14 @@ import Container from "react-bootstrap/Container";
 export default function Experience() {
     return (
         <Container fluid className="experience" id="experience">
-            <h1>Arbeidserfaring</h1>
+            <Container fluid className='experience--header'>
+                <h1>Arbeidserfaring</h1>
+            </Container>
             <Container fluid className="experience--body">
                 <Container fluid className="experience-img">
-                    <img src={experienceImg} />
+                    <img src={experienceImg} alt="" />
                 </Container>
-                <Container fluid className="experience-description">
+                <Container fluid className="experience--description">
                     {experienceData.map(experience => (
                             <ExperienceCard
                                 key={experience.id}

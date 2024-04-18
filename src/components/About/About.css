@@ -90,8 +90,12 @@
         font-size: 1.15rem;
     }
 
+    .about-img {
+        display: none;
+    }
+
     .about-img>img {
-        width: 300px;
+        display: none;
     }
 }
 
@@ -126,9 +130,12 @@
         font-size: 1.1rem;
     }
 
+    .about-img {
+        display: none;
+    }
+    
     .about-img>img {
-        width: 250px;
-        flex: 0.4;
+        display: none;
     }
 
 }
@@ -169,6 +176,6 @@
     }
 
     .about-img>img {
-        width: 200px;
+        display: none;
     }
 }

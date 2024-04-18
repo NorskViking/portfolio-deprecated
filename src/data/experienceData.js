@@ -9,7 +9,7 @@ export const experienceData = [
         jobtitle: 'Prosjektleder',
         website: 'https://www.funkweb.no',
         logo: funkweb,
-        description: '',
+        description: 'Bidrar til å opprette og holde kurs og prosjekter for kandidater ved FunkWeb.',
         startYear: 'Feb. 2024',
         endYear: 'nåværende'
     },
@@ -19,7 +19,7 @@ export const experienceData = [
         jobtitle: 'Konsulent',
         website: 'https://www.adecco.no',
         logo: adecco,
-        description: '',
+        description: 'Trer inn i ulike roller etter kundens behov og ønsker.',
         startYear: 'Mai. 2021',
         endYear: 'nåværende'
     },
@@ -31,6 +31,6 @@ export const experienceData = [
         logo: gronlandBryggeri,
         description: '',
         startYear: 'Feb. 2019',
-        endYear: 'Oktober 2020'
+        endYear: 'Okt. 2020'
     }
 ]

@@ -71,13 +71,13 @@
 }
 
 .lcr--content {
-    width: 45%;
+    width: 60%;
     margin-right: 2rem;
 }
 
 .lcr--content h6 {
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     margin-bottom: -0.85rem;
     opacity: 0.8;
 }
