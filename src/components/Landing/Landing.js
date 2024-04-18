@@ -13,7 +13,7 @@ import { socialsData } from "../../data/socialsData";
 
 export default function Landing() {
     return (
-        <Container fluid className="landing">
+        <Container fluid className="landing" id="landing">
             <Container fluid className="landing--container">
                 <Col fluid className="landing--container-left">
                     <Container fluid className="lcl--content">
