@@ -12,9 +12,10 @@ export default function Testimonials() {
                 <h1>Attester</h1>
             </Container>
             <Container fluid className='testimonaials--body'>
-                <Carousel>
+                <Carousel fade>
                     {testimonalsData.map((testimonial) => (
-                        <Carousel.Item interval={3000} key={testimonial.id} className='testimonial--item'>
+                        <Carousel.Item interval={5000} key={testimonial.id} className='testimonial--item'>
+                            <Container fluid className='testimonials--container'>
                             <Image src={testimonial.image} alt='' className='testimonials--img' roundedCircle/>
                             <Carousel.Caption className='testimonials--content'>                        
                                 <p>
@@ -27,6 +28,7 @@ export default function Testimonials() {
                                     {testimonial.title}
                                 </h4>
                             </Carousel.Caption>
+                            </Container>
                         </Carousel.Item>
                     ))}
                 </Carousel>
