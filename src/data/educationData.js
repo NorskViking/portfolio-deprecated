@@ -14,7 +14,7 @@ export const educationData = [
     {
         id: 2,
         institution: 'Northview HighSchool, Grand Rapids, Michigan, USA',
-        course: 'Utvekslingsstudent, andreåret videregående skole',
+        course: 'Utvekslingsstudent - Studiespesialisering, realfag',
         startYear: '2009',
         endYear: '2010',
         logo: northview
@@ -22,7 +22,7 @@ export const educationData = [
     {
         id: 3,
         institution: 'Sande Videregående Skole, Sande i Vestfold, Norge',
-        course: 'Videregående Skole',
+        course: 'Studiespesialisering, realfag',
         startYear: '2008',
         endYear: '2011',
         logo: sandevgs
