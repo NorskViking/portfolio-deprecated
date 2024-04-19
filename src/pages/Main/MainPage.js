@@ -11,9 +11,9 @@ import Education from '../../components/Education/Education';
 import Skills from '../../components/Skills/Skills';
 import Experience from '../../components/Experience/Experience';
 import Projects from '../../components/Projects/Projects';
-import Achievement from '../../components/Achievement/Achievement';
+/** import Achievement from '../../components/Achievement/Achievement'; */
 import Testimonials from '../../components/Testimonials/Testimonials';
-import Footer from '../../components/Footer/Footer';
+/** import Footer from '../../components/Footer/Footer'; */
 
 export default function Main() {
     return (
@@ -24,9 +24,12 @@ export default function Main() {
             <Skills />
             <Experience />
             <Projects />
-            <Achievement />
             <Testimonials />
-            <Footer />
         </Container>
     )
 }
+
+/**
+ * <Achievement />
+ * <Footer />
+ */
