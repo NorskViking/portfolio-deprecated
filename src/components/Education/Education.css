@@ -1,22 +1,26 @@
 .education {
-    width: 100%;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
     padding: 0;
-    margin: 0;
+    margin: 1rem 0;
 }
 
 .education--header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
 }
 
 .education--header h1 {
     font-style: normal;
     font-weight: bold;
+    font-size: 2.5rem;
 }
 
 .education--body {
@@ -27,11 +31,16 @@
     width: 100%;
 }
 
+.education--img {
+    display: none;
+}
+
 .education--description {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .educationCard {
@@ -41,6 +50,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 20rem;
     border-radius: 20px;
     margin-bottom: 2rem;
 }
@@ -48,12 +58,15 @@
 .educationCard--body {
     height: 100%;
     width: 100%;
+    text-align: center;
 }
 
 .educationCard--img {
     object-fit: contain;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    max-width: 90%;
+    height: 50%;
+    padding: 0.2rem;
+    margin: 0.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,67 +76,20 @@
 
 .educationCard--header {
     font-weight: 600;
+    font-size: 1.1rem;
 }
 
 .educationCard--subtitle {
     font-style: italic;
     font-weight: 300;
+    font-size: 1.1rem;
 }
 
 .educationCard--text {
     padding-top: 0.5rem;
     font-weight: 500;
     color: #e0d9d9;
-}
-
-@media only screen and (max-width: 600px) {    
-    .education--header {
-        align-items: center;
-        padding: 1rem 2rem;
-    }
-    
-    .education--header h1 {
-        font-size: 2.5rem;
-    }
-    
-    .education--body {
-        flex-direction: column;
-    }
-    
-    .education--description {
-        align-items: center;
-    }
-    
-    .education--img {
-        display: none;
-    }
-    
-    .educationCard {
-        height: 20rem;
-    }
-    
-    .educationCard--img {
-        max-width: 90%;
-        height: 50%;
-        padding: 0.2rem;
-        margin: 0.2rem;
-    }
-    
-    .educationCard--body {
-        text-align: center;
-    }
-    
-    .educationCard--header {
-        font-size: 1.1rem;
-    }
-    
-    .educationCard--subtitle {
-        font-size: 1.1rem;
-    }
-    
-    .educationCard--text {
-        font-size: 1.2rem;
-    }
+    font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 600px) {
@@ -141,7 +107,9 @@
     }
     
     .education--description {
+        width: 100%;
         align-items: center;
+        object-fit: contain;
     }
     
     .education--img {
@@ -149,8 +117,8 @@
     }
     
     .educationCard {
-        height: 10rem;
-        width: 45rem;
+        height: 12rem;
+        width: 35rem;
         flex-direction: row;
     }
     

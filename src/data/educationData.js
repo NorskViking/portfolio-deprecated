@@ -14,7 +14,7 @@ export const educationData = [
     {
         id: 2,
         institution: 'Northview HighSchool, Grand Rapids, Michigan, USA',
-        course: 'Utvekslingsstudent - Studiespesialisering, realfag',
+        course: 'Studiespesialisering, realfag',
         startYear: '2009',
         endYear: '2010',
         logo: northview

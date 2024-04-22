@@ -1,3 +1,19 @@
+# Min Portefølje-nettside
+## Utviklet i React, med Bootstrap.
+
+TODO:
+- [] Utbedre CSS etter mobil-først prinsippet
+- [x] Start seksjon
+- [x] Om seksjon
+- [x] Utdannings seksjon
+- [x] Ferdighets seksjon
+- [x] Arbeidserfarings seksjon
+- [x] Prosjekt seksjon
+- [x] Attest seksjon
+- [] Frivillig-erfaring seksjon
+- [] Kurs og sertifikat seksjon
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
