@@ -18,13 +18,9 @@ console.log(list)
 export default function App() {
   return (
     <Container fluid className='app'>
-        <Nav className="justify-content-end">
         <Routes>
           <Route path="/" element={<MainPage />} />    
         </Routes>
-          <BackToTop />
-        </Nav>
-        <Footer />
     </Container>
   );
 }

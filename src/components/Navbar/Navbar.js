@@ -6,6 +6,14 @@ import './Navbar.css'
 import { useState } from 'react';
 import { Button, Container, Nav, NavDropdown, Offcanvas } from 'react-bootstrap';
 
+const Navbar = () => {
+    return (
+        <div>
+            <Link to="/">Home</Link>
+        </div>
+    )
+}
+
 function OffCanvasNavbar() {
     const [show, setShow] = useState(false);
 
@@ -30,6 +38,7 @@ function OffCanvasNavbar() {
     )
 }
 export default OffCanvasNavbar;
+export default Navbar;
 
 /*
     <Link to="/About">About</Link>
