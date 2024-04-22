@@ -14,6 +14,8 @@ TODO:
 - [x] Attest seksjon
 - [ ] Frivillig-erfaring seksjon
 - [ ] Kurs og sertifikat seksjon
+- [ ] Implementer navigasjon
+- [ ] Implementere 'backToTop' funksjon
 - [ ] Oppgradere til Typescript
 
 
