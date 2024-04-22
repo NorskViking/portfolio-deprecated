@@ -1,8 +1,10 @@
 # Min Portefølje-nettside
-## Utviklet i React, med Bootstrap.
+Utviklet i React, med Bootstrap.
+
+En portefølje nettside utviklet med React og bootstrap, for å kunne vise mine ferdigheter med Front-end utvikling. Nettsiden er hostet på Github-pages.
 
 TODO:
-- [] Utbedre CSS etter mobil-først prinsippet
+- [ ] Utbedre CSS etter mobil-først prinsippet
 - [x] Start seksjon
 - [x] Om seksjon
 - [x] Utdannings seksjon
@@ -10,8 +12,9 @@ TODO:
 - [x] Arbeidserfarings seksjon
 - [x] Prosjekt seksjon
 - [x] Attest seksjon
-- [] Frivillig-erfaring seksjon
-- [] Kurs og sertifikat seksjon
+- [ ] Frivillig-erfaring seksjon
+- [ ] Kurs og sertifikat seksjon
+- [ ] Oppgradere til Typescript
 
 
 # Getting Started with Create React App
