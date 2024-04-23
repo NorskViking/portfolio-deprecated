@@ -5,8 +5,7 @@ import linkedin from "../../assets/svg/linkedin.svg";
 import profile from "../../assets/jpg/profile.jpg";
 
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image"
 
 import { landingData } from "../../data/landingData";
 import { socialsData } from "../../data/socialsData";
@@ -15,7 +14,7 @@ export default function Landing() {
     return (
         <Container fluid className="landing" id="landing">
             <Container fluid className="landing--container">
-                <Col fluid className="landing--container-left">
+                <Container fluid className="landing--container-left">
                     <Container fluid className="lcl--content">
                         {socialsData.linkedin && (
                             <a
@@ -36,15 +35,15 @@ export default function Landing() {
                             </a>
                         )}
                     </Container>
-                    <img src={profile} alt="" className="landing--img" />
-                </Col>
-                <Col fluid className="landing--container-right">
-                    <Row fluid className="lcr--content">
+                    <Image src={profile} alt="" className="landing--img" roundedCircle />
+                </Container>
+                <Container fluid className="landing--container-right">
+                    <Container fluid className="lcr--content">
                         <h6>{landingData.title}</h6>
                         <h1>{landingData.name}</h1>
                         <p>{landingData.description}</p>
-                    </Row>
-                </Col>
+                    </Container>
+                </Container>
             </Container>
         </Container>
     );
