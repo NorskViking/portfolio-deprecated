@@ -50,9 +50,11 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 20rem;
+    max-height: 20%;
     border-radius: 20px;
     margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .educationCard--body {

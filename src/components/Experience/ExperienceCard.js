@@ -8,7 +8,7 @@ export default function ExperienceCard({ id, company, jobtitle, website, logo, d
         <Container fluid key={id}>
             <Card className='experience-card'>
                 <Card.Img variant="top" src={logo} href={website} alt="Company logo with weblink to company website, if available." />
-                <Card.Body>
+                <Card.Body className='card-body'>
                     <Card.Title>
                         {company}
                     </Card.Title>
