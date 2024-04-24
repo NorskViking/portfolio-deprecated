@@ -13,7 +13,7 @@ export default function Experience() {
                 <h1>Arbeidserfaring</h1>
             </Container>
             <Container fluid className="experience--body">
-                <Container fluid className="experience-img">
+                <Container fluid className="experience--img">
                     <img src={experienceImg} alt="" />
                 </Container>
                 <Container fluid className="experience--description">

@@ -19,7 +19,7 @@ export const experienceData = [
         jobtitle: 'Konsulent',
         website: 'https://www.adecco.no',
         logo: adecco,
-        description: 'Trer inn i ulike roller etter kundens behov og ønsker.',
+        description: 'Tre inn i ulike roller etter kundens behov og ønsker.',
         startYear: 'Mai. 2021',
         endYear: 'nåværende'
     },
