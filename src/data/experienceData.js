@@ -29,7 +29,7 @@ export const experienceData = [
         jobtitle: 'Bryggerimester',
         website: '',
         logo: gronlandBryggeri,
-        description: '',
+        description: 'Ansvarlig for utvikling, produksjon og kvalitetssikring av vareporteføljen.',
         startYear: 'Feb. 2019',
         endYear: 'Okt. 2020'
     }

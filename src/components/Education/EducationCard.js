@@ -10,7 +10,7 @@ export default function EducationCard({ id, institution, course, startYear, endY
                         {institution}
                 </Card.Title>
                 <Card.Subtitle className='educationCard--subtitle'>
-                    {startYear}-{endYear}
+                    {startYear} - {endYear}
                 </Card.Subtitle>
                 <Card.Text className='educationCard--text'>
                     {course}

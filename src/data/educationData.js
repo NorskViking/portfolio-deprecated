@@ -8,7 +8,7 @@ export const educationData = [
         institution: 'Universitetet i Oslo, Oslo, Norge',
         course: 'Bachelor i Informatikk',
         startYear: '2011',
-        endYear: '2022',
+        endYear: '2021',
         logo: uio
     },
     {

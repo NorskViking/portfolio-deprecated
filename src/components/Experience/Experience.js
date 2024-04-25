@@ -27,6 +27,7 @@ export default function Experience() {
                                 jobtitle={experience.jobtitle}
                                 startYear={experience.startYear}
                                 endYear={experience.endYear}
+                                description={experience.description}
                             />
                         ))}
                 </Container>

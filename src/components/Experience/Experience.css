@@ -1,44 +1,43 @@
 .experience {
     display: flex;
     flex-direction: column;
-    max-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     width: 100vw;
     padding: 0;
-    margin: 0;
 }
 
 .experience--header {
     display: flex;
-    max-width: 100vw;
+    width: 100%;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 .experience--header h1 {
     font-style: normal;
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 400%;
     text-align: center;
 }
 
 .experience--body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90vw;
+    width: 100vw;
     padding: 0;
-    margin: auto;
 }
 
 .experience--description {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    width: 100vw;
 }
 
 .experienceCard {
@@ -46,12 +45,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0095FF;
+    background: #0095FF;
     object-fit: contain;
-    width: 100%;
-    height: 25vh;
+    width: 90%;
+    height: 24vh;
     border-radius: 20px;
-    margin-bottom: 2rem;
+    margin: 4%;
     transition: transform 0.5s;
     box-shadow: 2px 2px 10px #999999;
 }
@@ -61,42 +60,39 @@
 }
 
 .experienceCard .experienceCard--body {
-    margin: 2%;
+    text-align: center;
     width: 100%;
     height: 60%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    padding: 0.5%;
 }
 
 .experienceCard .experienceCard--img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    height: 40%;
     flex-shrink: 0;
-    border-radius: 20px;
     object-fit: contain;
-    padding: 2%;
-    z-index: 3;
+    max-width: 90%;
+    height: 40%;
+    padding-top: 2%;
 }
 
-.experienceCard--header {
+.experienceCard .experienceCard--header {
     font-weight: 600;
     font-size: 1.1rem;
 }
 
-.experienceCard--subtitle {
+.experienceCard .experienceCard--subtitle {
     font-style: italic;
     font-weight: 500;
     font-size: 1.1rem;
 }
 
-.experienceCard--text {
+.experienceCard .experienceCard--text {
     font-weight: 500;
     color: #e0d9d9;
     font-size: 1.2rem;
+    margin-bottom: 2%;
 }
 
 .experience--img {
@@ -104,62 +100,60 @@
 }
 
 @media only screen and (min-width: 600px) {
-    .experience {
-        min-height: 100vh;
-        margin-bottom: 5%;
-    }
-
-    .experience--header {
-        margin-bottom: 1.5rem;
+    .experience--description {
+        width: 100%;
+        align-items: center;
+        object-fit: contain;
     }
 
     .experienceCard {
-        height: 32vh;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     .experienceCard .experienceCard--body {
-        position: relative;
-        width: 60%;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        height: 100%;
+        padding-top: 0;
+        padding: 2%;
     }
 
-    .experienceCard--img {
-        position: relative;
-        height: 90%;
+    .experienceCard .experienceCard--img {
+        height: 100%;
         max-width: 40%;
+        padding: 2%;
     }
 
-    .experienceCard--header {
+    .experienceCard .experienceCard--header {
         font-size: 1.2rem;
     }
     
-    .experienceCard--text {
+    .experienceCard .experienceCard--text {
         font-size: 1.3rem;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .experience {
-        min-height: fit-content;
+    .experience--header {
+        align-items: flex-end;
     }
 
     .experience--header h1 {
         font-size: 3.2rem;
     }
 
-    .experienceCard {
-        height: 20vh;
-    }
-
-    .experienceCard--header {
+    .experienceCard .experienceCard--header {
         font-size: 1.3rem;
     }
     
-    .experienceCard--subtitle {
+    .experienceCard .experienceCard--subtitle {
         font-size: 1.2rem;
     }
     
-    .experienceCard--text {
+    .experienceCard .experienceCard--text {
         font-size: 1.4rem;
     }
 }
@@ -171,51 +165,70 @@
         padding-right: 5%;
     }
 
+    .experience--body {
+        flex-direction: row;
+    }
+
     .experience--header h1 {
         font-size: 3.5rem;
     }
 
     .experience--description {
-        width: 60%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        width: 60%;
         padding-right: 5%;
     }
-    
-    .experienceCard {
-        flex-direction: row;
-        position: relative;
-        width: 55vw;
-        height: 22vh;
-    }
 
-    .experience-img {
+    .experience--img {
         display: flex;
-        width: 100%;
-        pointer-events: none;
-        justify-self: flex-start;
-        padding: 5%;
-    }
-    
-    .experience-img > img {
-        width: fit-content;
-        max-height: 100%;
-        max-width: 100%;
+        width: 40%;
+        height: 100%;
+        padding-left: 5%;
     }
 
-    .experienceCard--header {
+    .experience--img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .experienceCard .experienceCard--img {
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 100%;
+        width: 40%;
+    }
+
+    .experienceCard .experienceCard--header {
         font-size: 1.4rem;
     }
     
-    .experienceCard--subtitle {
-        font-size: 1.4rem;
+    .experienceCard .experienceCard--subtitle {
+        font-size: 1.1rem;
     }
     
-    .experienceCard--text {
-        font-size: 1.6rem;
+    .experienceCard .experienceCard--text {
+        font-size: 1.2rem;
     }
 }
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .experience--img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .experienceCard .experienceCard--header {
+        font-size: 1.5rem;
+    }
+    
+    .experienceCard .experienceCard--subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .experienceCard .experienceCard--text {
+        font-size: 1.3rem;
+    }
+}
