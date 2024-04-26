@@ -9,7 +9,7 @@ export const projectsData = [
         tags: ['Github', 'Godot', 'Asana'],
         code: "https://github.com/FunkWeb/spill6",
         demo: "https://funksoft.no/raskeladden/Raskeladden.og.Dovreslubben.html",
-        image: RnD,
+        image: RnD
     },
     {
         id: 2,
@@ -18,6 +18,15 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'JavaScript'],
         code: "https://github.com/NorskViking/CodeCademy--Full-stack-Engineer--Course",
         demo: "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path",
-        image: CodeCademy,
+        image: CodeCademy
+    },
+    {
+        id: 3,
+        projectName: "Portfolio Website",
+        projectDesc: "En portefølje nettside utviklet i React. Publisert via Github-pages. Viser frem meg, mine erfaringer og prosjekter.",
+        tags: ["React", "CSS", "Bootstrap", "Github"],
+        code: "https://github.com/NorskViking/portfolio",
+        demo: "https://norskviking.github.io/portfolio/",
+        image: CodeCademy
     }
 ]
