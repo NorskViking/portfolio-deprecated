@@ -119,9 +119,9 @@
     .about-img {
         display: flex;
         object-fit: contain;
-        height: 50%;
-        width: 50%;
-        margin: 1rem 2rem;
+        height: 100%;
+        width: 40%;
+        padding: 5%;
     }
 
     .about-img img {
@@ -137,7 +137,11 @@
         padding-top: 8rem;
     }
     
-    .about-description>h2 {
+    .about-description {
+        width: 60vw;
+    }
+
+    .about-description h2 {
         margin-bottom: 40px;
         font-size: 3.5rem;
     }

@@ -246,15 +246,15 @@
     }
 
     .lcr--content h6 {
-        font-size: 1.1rem;
+        font-size: 1.6rem;
     }
 
     .lcr--content h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .lcr--content p {
         margin-top: 0.3rem;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 }

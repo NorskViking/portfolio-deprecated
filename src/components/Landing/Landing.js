@@ -41,7 +41,10 @@ export default function Landing() {
                     <Container fluid className="lcr--content">
                         <h6>{landingData.title}</h6>
                         <h1>{landingData.name}</h1>
-                        <p>{landingData.description}</p>
+                        <p>{landingData.poem1}</p>
+                        <p>{landingData.poem2}</p>
+                        <p>{landingData.poem3}</p>
+                        <p>{landingData.poem4}</p>
                     </Container>
                 </Container>
             </Container>
