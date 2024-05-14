@@ -1,32 +1,44 @@
 export const volunteerData = [
     {
         id: 1,
-        title: "PitCrew - Inferno Metal Festival 2024",
+        title: "Cybernetisk Selskab, Universitetet i Oslo",
         description: "",
         image: inferno
     },
     {
         id: 2,
-        title: "DeltaForce - Midgardsblot Metal Festival 2023",
+        title: "Realistforeningen, Universitetet i Oslo",
         description: "",
-        image: midgardsblot
+        image: inferno
     },
     {
         id: 3,
-        title: "Environment - Tons of Rock Festival 2023",
+        title: "Tappetårnet, Universitetet i Oslo",
         description: "",
-        image: tonsOfRock
+        image: inferno
     },
     {
         id: 4,
         title: "Pre-Prod - Midgardsblot Metal Festival 2022",
         description: "",
-        image: midgardasblot
+        image: inferno
     },
     {
         id: 5,
-        title: " - Inferno Metal Festival",
+        title: "Environment - Tons of Rock Festival 2023",
+        description: "",
+        image: tonsOfRock
+    },
+    {
+        id: 6,
+        title: "DeltaForce - Midgardsblot Metal Festival 2023",
+        description: "",
+        image: midgardsblot
+    },
+    {
+        id: 7,
+        title: "Pit-Crew - Inferno Metal Festival 2024",
         description: "",
         image: inferno
-    },
+    }
 ]

@@ -1,6 +1,6 @@
 import './Education.css';
 import { educationData } from '../../data/educationData';
-import educationImg from '../../assets/jpg/education_img.jpg';
+import educationImg from '../../assets/png/education_img.png';
 import EducationCard from './EducationCard';
 
 import Container from 'react-bootstrap/Container';

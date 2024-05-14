@@ -1,6 +1,6 @@
 import './About.css';
 import { aboutData } from '../../data/aboutData';
-import aboutImg from '../../assets/jpg/about_img.jpg';
+import aboutImg from '../../assets/png/about_img.png';
 
 import Container from 'react-bootstrap/Container';
 

@@ -1,6 +1,6 @@
 import './Experience.css'
 import { experienceData } from "../../data/experienceData";
-import experienceImg from "../../assets/jpg/experience_img.jpg"
+import experienceImg from "../../assets/png/experience_img.png"
 
 import ExperienceCard from "./ExperienceCard";
 
