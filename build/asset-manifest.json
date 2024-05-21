@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f3f11821.css",
-    "main.js": "/portfolio/static/js/main.af254964.js",
+    "main.css": "/portfolio/static/css/main.1204e360.css",
+    "main.js": "/portfolio/static/js/main.f0ba9aad.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/profile.jpg": "/portfolio/static/media/profile.c0efd81a710a64d49f3a.jpg",
+    "static/media/experience_img.png": "/portfolio/static/media/experience_img.d45660f9ec76d80a96c0.png",
+    "static/media/education_img.png": "/portfolio/static/media/education_img.8e9c3d93e5aa0e99a6b2.png",
+    "static/media/about_img.png": "/portfolio/static/media/about_img.3d974aff9fceeb2c780d.png",
     "static/media/sandevgs.png": "/portfolio/static/media/sandevgs.1d97d4eb82ef25e9d969.png",
-    "static/media/experience_img.jpg": "/portfolio/static/media/experience_img.3e691248095f342e83d0.jpg",
-    "static/media/education_img.jpg": "/portfolio/static/media/education_img.efffb7af92b7e860bbb4.jpg",
     "static/media/Logo_R&D_1024x1024.PNG": "/portfolio/static/media/Logo_R&D_1024x1024.605036b27ac6d26993cd.PNG",
     "static/media/uio_logo.png": "/portfolio/static/media/uio_logo.6bdb1535471204a0aa49.png",
-    "static/media/about_img.jpg": "/portfolio/static/media/about_img.8330a17db91e07fe372e.jpg",
     "static/media/vscode-original-wordmark.svg": "/portfolio/static/media/vscode-original-wordmark.14d2a5a41da3599e61b3cc3c63ad0e7d.svg",
     "static/media/dot-net-original-wordmark.svg": "/portfolio/static/media/dot-net-original-wordmark.4df9c0648f3374dfe53ee205d3ab76b4.svg",
     "static/media/northview_highschool_logo.png": "/portfolio/static/media/northview_highschool_logo.f964464f26a9750c0b1e.png",
@@ -40,12 +40,13 @@
     "static/media/code-slash.svg": "/portfolio/static/media/code-slash.b72e5990f32ef19f99f11ffd3d27f600.svg",
     "static/media/play-circle.svg": "/portfolio/static/media/play-circle.25a5d973bb7e894550c2a3ebd4b87dc5.svg",
     "static/media/list.svg": "/portfolio/static/media/list.898c3358972d7809b49c2cc806c01f1d.svg",
-    "main.f3f11821.css.map": "/portfolio/static/css/main.f3f11821.css.map",
-    "main.af254964.js.map": "/portfolio/static/js/main.af254964.js.map",
+    "static/media/arrow-up.svg": "/portfolio/static/media/arrow-up.5425b91b6b7ad2ea1d504fca2b4e9a96.svg",
+    "main.1204e360.css.map": "/portfolio/static/css/main.1204e360.css.map",
+    "main.f0ba9aad.js.map": "/portfolio/static/js/main.f0ba9aad.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3f11821.css",
-    "static/js/main.af254964.js"
+    "static/css/main.1204e360.css",
+    "static/js/main.f0ba9aad.js"
   ]
 }
