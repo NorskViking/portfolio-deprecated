@@ -12,11 +12,3 @@ export default function SkillCard({id, logo}) {
         </Container>
     )
 }
-
-/*
-    <Card.Body>
-        <Card.Title>
-            {id}
-        </Card.Title>
-    </Card.Body>
-*/
