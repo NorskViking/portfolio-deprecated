@@ -1,6 +1,6 @@
 import UiOLogo from '../assets/png/uio_logo.png'
-import FunkWeb from '../assets/png/funkweb_suksess_logo.png'
-import TempLogo from '../logo.svg'
+//import FunkWeb from '../assets/png/funkweb_suksess_logo.png'
+//import TempLogo from '../logo.svg'
 
 export const testimonalsData = [
     {
