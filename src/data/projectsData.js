@@ -33,10 +33,10 @@ export const projectsData = [
     {
         id: 4,
         projectName: "Rock, Paper Scissor",
-        projectDesc: "Et lite spillprosjekt hentet fra frontendmentor.io, hvor jeg har laget Stein, Saks, Papir. Prosjektet er laget med React-Typescript, med TailwindCSS for styling",
-        tags: ["React", "TailwindCSS", "Typescript", "Github"],
+        projectDesc: "Et Stein, Saks, Papir spillprosjekt, hentet fra frontendmentor.io. Prosjektet er laget med React-Typescript, med TailwindCSS for styling",
+        tags: ["React", "TailwindCSS", "Typescript"],
         code: "https://github.com/NorskViking/rock-paper-scissors-master",
-        demo: "https://norskviking.github.io/portfolio/projects/rps_game",
+        demo: "https://norskviking.github.io/rock-paper-scissors-master/",
         image: RPS
     }
 ]
