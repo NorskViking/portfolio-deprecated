@@ -1,5 +1,6 @@
-import RnD from '../assets/png/Logo_R&D_1024x1024.PNG'
-import CodeCademy from '../assets/png/codecademy_logo.png'
+import RnD from '../assets/png/Logo_R&D_1024x1024.PNG';
+import CodeCademy from '../assets/png/codecademy_logo.png';
+import RPS from "../assets/png/rps.png";
 
 export const projectsData = [
     {
@@ -28,5 +29,14 @@ export const projectsData = [
         code: "https://github.com/NorskViking/portfolio",
         demo: "https://norskviking.github.io/portfolio/",
         image: CodeCademy
+    },
+    {
+        id: 4,
+        projectName: "Rock, Paper Scissor",
+        projectDesc: "Et lite spillprosjekt hentet fra frontendmentor.io, hvor jeg har laget Stein, Saks, Papir. Prosjektet er laget med React-Typescript, med TailwindCSS for styling",
+        tags: ["React", "TailwindCSS", "Typescript", "Github"],
+        code: "https://github.com/NorskViking/rock-paper-scissors-master",
+        demo: "https://norskviking.github.io/portfolio/projects/rps_game",
+        image: RPS
     }
 ]
