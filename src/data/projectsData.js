@@ -27,7 +27,7 @@ export const projectsData = [
         projectDesc: "En portefølje nettside utviklet i React. Publisert via Github-pages. Viser frem meg, mine erfaringer og prosjekter.",
         tags: ["React", "CSS", "Bootstrap", "Github"],
         code: "https://github.com/NorskViking/portfolio",
-        demo: "https://norskviking.github.io/portfolio/",
+        demo: "https://norskviking.github.io/rock-paper-scissors-master/",
         image: CodeCademy
     },
     {
