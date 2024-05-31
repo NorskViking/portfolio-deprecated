@@ -1,91 +1,55 @@
-# Min Portefølje-nettside
-Utviklet i React, med Bootstrap.
+![issues-open](https://img.shields.io/github/issues/NorskViking/portfolio.svg) ![issues-closed](https://img.shields.io/github/issues-closed/NorskViking/portfolio.svg) ![pull-open](https://img.shields.io/github/issues-pr/NorskViking/portfolio.svg) ![pull-closed](https://img.shields.io/github/issues-pr-closed/NorskViking/portfolio.svg)<br>
+![vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) ![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-En portefølje nettside utviklet med React og bootstrap, for å kunne vise mine ferdigheter med Front-end utvikling. Nettsiden er hostet på Github-pages.
+# My Portfolio
 
-TODO:
-- [ ] Utbedre CSS etter mobil-først prinsippet
-- [x] Start seksjon
-- [x] Om seksjon
-- [x] Utdannings seksjon
-- [x] Ferdighets seksjon
-- [x] Arbeidserfarings seksjon
-- [x] Prosjekt seksjon
-- [x] Attest seksjon
-- [ ] Frivillig-erfaring seksjon
-- [ ] Kurs og sertifikat seksjon
-- [ ] Implementer navigasjon
-- [ ] Implementere 'backToTop' funksjon
-- [ ] Oppgradere til Typescript
+My personal portfolio website developed with the Javascript framework. The portfolio shows of my education, work-history and development skills. 
+
+## Table of contents
+
+- [Overview](#overview)
+    - [Links](#links)
+    - [Further development](#further-development)
+- [My Process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
+- [Author](#author)
 
 
-# Getting Started with Create React App
+### Links
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Solution URL: [Solution](https://github.com/NorskViking/portfolio)
+- Live Site URL: [Try the game](https://norskviking.github.io/portfolio/)
 
-## Available Scripts
+### Further development
 
-In the project directory, you can run:
+ - Implement Typescript
+ - Implement Redux
+ - Add more sections
+    * Volunteer-experience
+    * Blog?
+ - Host on a dedicated server and add backend?
 
-### `npm start`
+## My process
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Built with
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [React-Bootstrap](https://react-bootstrap.netlify.app/) - For styles
+- [Github-pages](https://pages.github.com/) - For hosting
+- [Github Actions](https://docs.github.com/en/actions) - for CD/CI
 
-### `npm test`
+### What I learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+During this project I tried using Bootstrap for the first time, and learned how to use bootstrap for styling component. 
+Further on, I researched several possible hosting sites, and decided to use Github pages. During this process, I learned how to implement 'gh-pages' library and 'Github Actions' for deployment and CD/CI of my projects.
 
-### `npm run build`
+### Useful resources
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React-Bootstrap](https://react-bootstrap.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Jørgen S. Baumann](https://norskviking.github.io/portfolio/)
